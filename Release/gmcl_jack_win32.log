@@ -1,0 +1,29 @@
+﻿Build started 09.05.2017 1:38:12.
+     1>Project "D:\GMHax\gmcl_jack_win32\gmcl_jack_win32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\gmcl_jack_win32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt state.cpp
+         state.cpp
+     1>state.cpp(116): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354): см. объявление "vsnprintf"
+     1>state.cpp(140): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>state.cpp(325): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363): см. объявление "_snprintf"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GMHax\Release\gmcl_jack_win32.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\gmcl_jack_win32.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\GMHax\Release\gmcl_jack_win32.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GMHax\Release\gmcl_jack_win32.lib" /MACHINE:X86 /DLL Release\main.obj
+         Release\state.obj
+            Создается библиотека D:\GMHax\Release\gmcl_jack_win32.lib и объект D:\GMHax\Release\gmcl_jack_win32.exp
+         Создание кода
+         Создание кода завершено
+         gmcl_jack_win32.vcxproj -> D:\GMHax\Release\gmcl_jack_win32.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\GMHax\Release\gmcl_jack_win32.dll;#2" /manifest Release\gmcl_jack_win32.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\gmcl_jack_win32.unsuccessfulbuild".
+         Touching "Release\gmcl_jack_win32.lastbuildstate".
+     1>Done Building Project "D:\GMHax\gmcl_jack_win32\gmcl_jack_win32.vcxproj" (build target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:02.79
